@@ -1,17 +1,21 @@
 <!DOCTYPE html>
+<html class="page" lang="ru">
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic;display=swap"
+    <link href="normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="page-body">
 
-    <header>
-      <nav>
-        <a>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
       <img src="img/logo.svg" width="138" height="70" alt="Логотип Седона">
     </a>
-        <ul>
+        <ul class="site-navigation">
           <li><a href="#">Информация</a></li>
           <li><a href="#">Фото и видео</a></li>
           <li><a href="#">Карта штата</a></li>
@@ -20,19 +24,19 @@
       </nav>
   </header>
 
-  <main>
+  <main class="container">
 
 <div>
 <img src="img/welcome.svg" width="456.65" height="350.88" alt="welcome">
 </div>
 
-<section>
+<section class="sedona">
 <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
 <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 </section>
 
-<section>
-<div>
+<section class="description">
+<div class="description-item">
 <h3>настоящий городок</h3>
 <p> — №1 —</p>
 <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
@@ -63,7 +67,7 @@
 
 
 <section>
-  <div>
+<div>
    <img src="https://via.placeholder.com/800x256" alt="природа">
    </div>
 <div>
@@ -74,29 +78,31 @@
 </section>
 
 <section>
-<div>
+<div class="description-item">
 <h3>небольшая площадь</h3>
 <p>— №3 —</p>
 <p>все достопримечательности находятся очень близко</p>
 </div>
-<div>
+
+<div class="description-item">
 <h3>красивая дорога</h3>
 <p>— №4 —</p>
 <p>ехать в седону из лас-вегаса совсем не скучно!</p>
 </div>
-<div>
+
+<div class="description-item">
 <h3>мало туристов</h3>
 <p>— №5 —</p>
 <p>большинство едет в гранд каньон и толпится там</p>
 </div>
 </section>
 
-    <section>
+    <section class="interested">
       <h2>Заинтересовались?</h2>
 <p>Укажите предполагаемые даты поедки и мы покажем вам лучшие предложения гостиниц в седоне</p>
     </section>
 
-    <section>
+    <section class="search">
       <h2>Поиск гостиницы в седоне</h2>
 <!-- Здесь будет форма бронирования гостиницы -->
   <img src="https://via.placeholder.com/1199x594" alt="">
@@ -104,27 +110,29 @@
 
   </main>
 
-  <footer>
-    <section>
+  <footer class="page-footer main-footer">
+    <section class="footer-contacts">
     <h2>#visitSEDONA</h2>
-     <a href="ТЕЛ: +74956660166">ТЕЛ: +7(495) 666-01-66</a>
+     <a class="footer-phone" href="ТЕЛ: +74956660166">ТЕЛ: +7(495) 666-01-66</a>
      </section>
 
+<section class="footer-social">
     <ul>
       <li>
-        <a href="#">Twitter</a>
+        <a class="social-button" href="#">Twitter</a>
       </li>
       <li>
-        <a href="#">Facebook</a>
+        <a class="social-button" href="#">Facebook</a>
       </li>
       <li>
-        <a href="#">YouTube</a>
+        <a class="social-button" href="#">YouTube</a>
       </li>
     </ul>
+</section>
 
-    <p>
+    <p class="footer-copyright">
     Website by
-    <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="113.98" height="39.78" alt="Логотип"></a>
+    <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="113.98" height="39.78" alt="Логотип"></a>
   </p>
   </footer>
 
