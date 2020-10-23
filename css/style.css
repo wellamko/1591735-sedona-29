@@ -26,6 +26,10 @@ body {
   text-align: center;
   }
 
+  a {
+   text-decoration: none;
+ }
+
   img {
     max-width: 100%;
     height: auto;
@@ -46,14 +50,24 @@ body {
     background-color: #FFFFFF;
     }
 
-  .site-navigation  a {
-    text-decoration: none;
-  }
-
   .site-navigation {
+    color: #000000;
     list-style: none;
     display: flex;
     justify-content: space-around;
+  }
+
+  .site-navigation  a {
+    color: #766357;
+  }
+
+  .site-navigation a:hover {
+    color: #81B3D2;
+  }
+
+  .site-navigation a:active {
+    color: #000000;
+    opacity: 0.3;
   }
 
 /*Welcome*/
@@ -113,13 +127,6 @@ body {
     font-weight: 400;
   }
 
-  .info-img {
-    display: inline-block;
-    width: 800px;
-    background-image: url("../img/image.jpg");
-    height: 256px;
-    }
-
 /* Features */
   .features {
     background-color: #EEEEEE;
@@ -140,6 +147,7 @@ body {
   }
 
   .features-item p {
+    color: 333333;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -192,15 +200,28 @@ body {
 
 /* Search */
   .search {
-    font-size: 21px;
-    line-height: 26px;
-    color: #FFFFFF;
-    background-color: #766357;
-    font-weight: 700;
-    height: 86px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    }
+
+    .search h2 {
+      font-size: 21px;
+      line-height: 26px;
+      color: #FFFFFF;
+      background-color: #766357;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+
+    .search:hover {
+      background: #604E43;
+    }
+
+    .search:active {
+      background: #503E33;
+      color: rgba(255,255,255,0.3);
     }
 
   /* Main footer */
@@ -218,10 +239,10 @@ body {
     font-weight: 700;
   }
 
-  .footer-copyright {
+  .footer-copyright p {
+    color: #000000;
     font-size: 14px;
     line-height: 26px;
-    color: #000000;
   }
 
   .footer-contacts a {
@@ -237,10 +258,6 @@ body {
   }
 
 /* Social button */
-  .social-button {
-    list-style: none;
-  }
-
   .social-button {
     color: inherit;
   }
