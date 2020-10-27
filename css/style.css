@@ -13,8 +13,7 @@
 
 /* global */
 body {
-  min-width: 1200px;
-  height: 2762px;
+  width: 1200px;
   margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
@@ -48,17 +47,20 @@ body {
     font-weight: 700;
     color: #000000;
     background-color: #FFFFFF;
-    }
+  }
+
 
   .site-navigation {
+    height: 56px;
     color: #000000;
     list-style: none;
     display: flex;
     justify-content: space-around;
+    margin: -20px;
   }
 
   .site-navigation  a {
-    color: #766357;
+    color: #000000;
   }
 
   .site-navigation a:hover {
@@ -68,6 +70,10 @@ body {
   .site-navigation a:active {
     color: #000000;
     opacity: 0.3;
+  }
+
+  .site-navigation a:focus {
+    color: #766357;
   }
 
 /*Welcome*/
@@ -82,7 +88,7 @@ body {
 /* Description */
   .description {
     color: #000000;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     padding: 2%;
   }
 
@@ -147,7 +153,7 @@ body {
   }
 
   .features-item p {
-    color: 333333;
+    color: #333333;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -156,7 +162,7 @@ body {
 
 /* About */
   .about {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     justify-content: space-evenly;
     display: flex;
   }
@@ -196,6 +202,7 @@ body {
     line-height: 24px;
     font-weight: 400;
     padding: 1% 30%;
+    color: #333333;
   }
 
 /* Search */
@@ -216,11 +223,11 @@ body {
       }
 
     .search:hover {
-      background: #604E43;
+      background-color : #604E43;
     }
 
     .search:active {
-      background: #503E33;
+      background-color: #503E33;
       color: rgba(255,255,255,0.3);
     }
 
@@ -272,3 +279,298 @@ body {
     color: #ffffff;
     background-color: #81B3D2;
   }
+
+/*HOTEL*/
+/*list*/
+.list{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-infrastructure{
+  color: #FFFFFF;
+}
+
+.list-infrastructure h3{
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.list-item {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.list-item ul {
+  list-style: none;
+  text-align: left;
+}
+
+.list-home {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.list-home ul {
+  list-style: none;
+  text-align: left;
+}
+
+
+/*list-cost*/
+.list-cost {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #FFFFFF;
+  float: right;
+  padding: 50px;
+}
+
+.list-choice {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.list-choice input {
+  color: #FFFFFF;
+  border: 2px solid;
+}
+
+.option {
+  background-color: #FFFFFF;
+  width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.option-item h3 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.option a {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  opacity: 0.3;
+  border-bottom: 1px dashed #81B3D2;
+  text-decoration: none;
+}
+
+.option a:hover {
+  color: #81B3D2;
+  border-bottom: 1px dashed #81B3D2;
+}
+
+.option a:active {
+  color: #000000;
+}
+
+.option a:focus {
+  color: #81B3D2;
+}
+
+/*option-sort*/
+.option-sort {
+  color: #CACACA;
+  text-decoration: none;
+}
+
+.option-sort a:hover {
+  color: #000000;
+}
+
+.option-sort a:active
+.option-sort a:focus {
+  color: #81B3D2;
+}
+
+  /*hotel*/
+  .hotel {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    border: #E5E5E5;
+  }
+
+  .hotel-text h3{
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .hotel-text p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .hotel-text h3:hover {
+   color : #81B3D2;
+  }
+
+  .hotel-text h3:active {
+   color: #000000;
+   opacity: 0.3;
+  }
+
+  .hotel-rating{
+    color: #666666;
+    background: #F2F2F2;
+    height: 27px;
+    width: 110px;
+  }
+
+  .hotel-rating p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin: 0;
+    line-height: -1;
+    padding: 3px;
+  }
+
+  /*motel*/
+  .motel {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+  }
+
+  .motel-text h3{
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .motel-text p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .motel-text h3:hover {
+   color : #81B3D2;
+  }
+
+  .motel-text h3:active {
+   color: #000000;
+   opacity: 0.3;
+ }
+
+  .motel-rating{
+    color: #666666;
+    background: #F2F2F2;
+    height: 27px;
+    width: 110px;
+  }
+
+  .motel-rating p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin: 0;
+    line-height: -1;
+    padding: 3px;
+  }
+
+  /*apartment*/
+  .apartment {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+  }
+
+  .apartment-text h3{
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .apartment-text h3:hover {
+   color : #81B3D2;
+  }
+
+  .apartment-text h3:active {
+   color: #000000;
+   opacity: 0.3;
+  }
+
+  .apartment-text p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .apartment-rating p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin: 0;
+    line-height: -1;
+    padding: 3px;
+  }
+
+  .apartment-rating{
+    color: #666666;
+    background: #F2F2F2;
+    height: 27px;
+    width: 110px;
+  }
+
+/*button*/
+.button-hotel-detail{
+  font-size: 14px;
+  color: #ffffff;
+  vertical-align: middle;
+  border: none;
+  text-transform: uppercase;
+  background-color:#81B3D2;
+  height: 27px;
+}
+
+.button-hotel-detail:hover{
+  background-color: #669EC0;
+}
+
+.button-hotel-detail:focus{
+  background-color: #5496BD;
+  opacity: 0.3;
+  border: 0;
+}
+
+.button-hotel-reserv {
+  font-size: 14px;
+  color: #ffffff;
+  vertical-align: middle;
+  border: none;
+  text-transform: uppercase;
+  background-color:#766357;
+  height: 27px;
+}
+
+.button-hotel-reserv:hover{
+  background-color: #604E43;
+  border: none;
+}
+
+.button-hotel-reserv:focus{
+  background-color: #503E33;
+  color: #FFFFFF;
+  opacity: 0.3;
+  border: none;
+}
