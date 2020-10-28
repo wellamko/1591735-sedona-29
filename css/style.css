@@ -49,7 +49,6 @@ body {
     background-color: #FFFFFF;
   }
 
-
   .site-navigation {
     height: 56px;
     color: #000000;
@@ -68,12 +67,8 @@ body {
   }
 
   .site-navigation a:active {
-    color: #766357;
-  }
-
-  .site-navigation a:focus {
-  color: #000000;
-  opacity: 0.3;
+    color: #000000;
+    opacity: 0.3;
   }
 
 /*Welcome*/
@@ -252,6 +247,10 @@ body {
     line-height: 26px;
   }
 
+ .footer-copyright + p {
+   line-height: 26px;
+ }
+
   .footer-contacts a {
     text-decoration: none;
   }
@@ -345,6 +344,7 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   border: 2px solid;
+  background: transparent;
 }
 
 .list-choice input::placeholder {
@@ -370,6 +370,7 @@ body {
 
 .option-filter a:first-of-type {
   color: #81B3D2;
+  opacity: 1;
 }
 
 .option-item h3 {
