@@ -68,12 +68,12 @@ body {
   }
 
   .site-navigation a:active {
-    color: #000000;
-    opacity: 0.3;
+    color: #766357;
   }
 
   .site-navigation a:focus {
-    color: #766357;
+  color: #000000;
+  opacity: 0.3;
   }
 
 /*Welcome*/
@@ -323,12 +323,14 @@ body {
 
 /*list-cost*/
 .list-cost {
+  color: #FFFFFF;
+  padding: 50px;
+}
+
+.list-cost h3 {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
-  color: #FFFFFF;
-  float: right;
-  padding: 50px;
 }
 
 .list-choice {
@@ -338,15 +340,36 @@ body {
 }
 
 .list-choice input {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
   color: #FFFFFF;
   border: 2px solid;
 }
+
+.list-choice input::placeholder {
+  color: #FFFFFF;
+  }
+
+.list-choice input[type="submit"]:hover {
+  color: #000000;
+  background: #FFFFFF;
+  }
 
 .option {
   background-color: #FFFFFF;
   width: 1200px;
   display: flex;
   justify-content: space-evenly;
+}
+
+.option-filter span {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.option-filter a:first-of-type {
+  color: #81B3D2;
 }
 
 .option-item h3 {
@@ -371,11 +394,12 @@ body {
 }
 
 .option a:active {
-  color: #000000;
+  color: #81B3D2;
+  opacity: 1;
 }
 
 .option a:focus {
-  color: #81B3D2;
+  color: #000000;
 }
 
 /*option-sort*/
@@ -409,6 +433,7 @@ body {
   }
 
   .hotel-text p{
+    color: #333333;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -535,6 +560,8 @@ body {
 /*button*/
 .button-hotel-detail{
   font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
   color: #ffffff;
   vertical-align: middle;
   border: none;
@@ -547,7 +574,7 @@ body {
   background-color: #669EC0;
 }
 
-.button-hotel-detail:focus{
+.button-hotel-detail:active{
   background-color: #5496BD;
   opacity: 0.3;
   border: 0;
@@ -555,6 +582,8 @@ body {
 
 .button-hotel-reserv {
   font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
   color: #ffffff;
   vertical-align: middle;
   border: none;
@@ -568,7 +597,7 @@ body {
   border: none;
 }
 
-.button-hotel-reserv:focus{
+.button-hotel-reserv:active{
   background-color: #503E33;
   color: #FFFFFF;
   opacity: 0.3;
