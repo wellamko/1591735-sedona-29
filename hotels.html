@@ -28,9 +28,9 @@
 <form action="URL">
 
 <section class="list">
+  <div class="list-item">
   <div class="list-infrastructure">
       <h3>инфраструктура</h3>
-      <div class="list-item">
         <ul>
           <li>
         <input type="checkbox" checked id="pool">
@@ -75,8 +75,7 @@
       <input type="submit" value="показать">
     </div>
 
-  </div>
-  </div>
+
 </section>
 </form>
 
@@ -96,22 +95,25 @@
       <a><img src="img/icon-up-dir.svg" alt="up"></a>
       <a><img src="img/icon-down-dir.svg" alt="down"></a>
     </div>
+<div class="line">
+</div>
 
 </section>
 
 <section class="hotel">
 <div class="hotel-img">
-<img src="img/Layer 21.jpg" width="135" height="90" alt="гостиница">
+<img src="img/Layer 21.jpg" width="135" height="90" alt="hotel">
 </div>
 
 <div class="hotel-text">
     <h3 class="hotel-Amara">Amara Resort & Spa</h3>
     <p>гостиница</p>
     <p>от 4000р</p>
-</div>
-
+    <div class="button-hotel">
     <button class="button-hotel-detail" type="button">подробнее</button>
     <button class="button-hotel-reserv" type="button">забронировать</button>
+  </div>
+</div>
 
   <div class="hotel-rating">
     <p><span>рейтинг 8,5</span></p>
@@ -120,17 +122,18 @@
 
 <section class="motel">
   <div class="motel-img">
-    <img src="img/Layer 89 copy.jpg" width="135" height="90" alt="мотель">
+    <img src="img/Layer 89 copy.jpg" width="135" height="90" alt="motel">
   </div>
 
   <div class="motel-text">
     <h3>Desert Quail Inn</h3>
     <p>мотель</p>
     <p>от 3000р</p>
+    <div class="button-hotel">
+      <button class="button-hotel-detail" type="button">подробнее</button>
+      <button class="button-hotel-reserv" type="button">забронировать</button>
+    </div>
 </div>
-
-    <button class="button-hotel-detail" type="button">подробнее</button>
-    <button class="button-hotel-reserv" type="button">забронировать</button>
 
   <div class="motel-rating">
     <p><span>рейтинг 8,9</span></p>
@@ -139,17 +142,19 @@
 
   <section class="apartment">
     <div class="apartment-img">
-    <img src="img/Rectangle.jpg" width="135" height="90" alt="апартаменты">
+    <img src="img/Rectangle.jpg" width="135" height="90" alt="apartment">
   </div>
 
   <div class = "apartment-text">
       <h3>Villas at Poco Diablo</h3>
       <p>апартаменты</p>
       <p>от 2000р</p>
+      <div class="button-hotel">
+        <button class="button-hotel-detail" type="button">подробнее</button>
+        <button class="button-hotel-reserv" type="button">забронировать</button>
+</div>
 </div>
 
-    <button class="button-hotel-detail" type="button">подробнее</button>
-    <button class="button-hotel-reserv" type="button">забронировать</button>
     <div class="apartment-rating">
       <p><span>рейтинг 9,2</span></p>
     </div>
@@ -166,30 +171,41 @@
     <ul>
       <li>
       <a class="social-button" href="#">
-        <span class="visually-hidden">Twitter</span>
-        <img src="img/Twitter.png" width="16,98" height="15,01"</img>
+        <span class="visually-hidden"></span>
+        <div class="img-Twitter">
+        <img src="img/Twitter.png" width="16,98" height="15,01">
+        </div>
         </a>
       </li>
       <li>
       <a class="social-button" href="#">
-        <span class="visually-hidden">Facebook</span>
-        <img src="img/Facebook.png" width="12" height="22"</img>
+        <div class="img-Facebook">
+        <span class="visually-hidden"></span>
+        <img src="img/Facebook.png" width="12" height="22">
+        </div>
         </a>
       </li>
       <li>
       <a class="social-button" href="#">
-        <span class="visually-hidden">YouTube</span>
-        <img src="img/YouTube.png" width="20" height="16"</img>
+        <div class="img-YouTube">
+          <span class="visually-hidden"></span>
+        <img src="img/YouTube.png" width="20" height="16">
+      </div>
         </a>
       </li>
     </ul>
   </section>
 
-    <p class="footer-copyright">
-    <p>Website by<p>
-    <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="113.98" height="39.78" alt="Логотип"></a>
-    </p>
+  <p class="footer-copyright">
+  <p>Website by<p>
+  <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">
+    <div class="img-logo">
+  <img src="img/logo-htmlacademy.svg" width="113.98" height="39.78" alt="logo"></a>
+  </p>
+  </div>
   </footer>
+  </div>
+  </div>
   </div>
   </body>
   </html>

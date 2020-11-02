@@ -26,15 +26,20 @@
     </nav>
   </header>
 
-<div class="welcome">
-  <p class ="welcome-img">
-<img src="img/welcome.svg" width="456.65" height="350.88" alt="welcome">
-</div>
+  	<div class="sedona-header">
+      <div class="welcome">
+      <p class ="welcome-img"></p>
+      <img src="img/welcome.svg" width="456.65" height="350.88" alt="welcome">
+      <div class="welcome-shape">
+      </div>
+      </div>
+  		<div class="sedona-header-bottom"></div>
+  	</div>
+    <section class="description">
+      <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+      <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+    </section>
 
-  <section class="description">
-    <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-    <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-  </section>
 
   <section class="info">
     <div class="info-text">
@@ -44,7 +49,7 @@
     </div>
 
     <div class="info-img">
-      <img src="img/image.jpg" width="800" height="256" alt="седона">
+      <img src="img/image.jpg" width="800" height="256" alt="мост дьявола">
     </div>
   </section>
 
@@ -103,16 +108,29 @@
   </section>
 
   <section class="search">
-    <div>
+    <div class="search-text">
     <h2>Поиск гостиницы в седоне</h2>
+    <div class="search-form">
+        <div class="search-date">
+        <ul>
+          <li>дата заезда:
+          <input type="date" placeholder="24 апреля 2017"></li>
+          <li>дата выезда:
+          <input type="date" placeholder="4 июля 2017"></li>
+        </ul>
+        </div>
+        <div class="search-men">
+        <ul>
+          <li>взрослые:
+          <input type="number" placeholder="2"></li>
+          <li>дети:
+          <input type="number" placeholder="0"></li>
+        </ul>
+        </div>
+        <button class="button-search" type="button">бронировать</button>
+        </div>
   </div>
 </section>
-
-<section>
-    <div>
-    <img src="https://via.placeholder.com/1199x594" alt="">
-  </div>
-  </section>
 
 </main>
 
@@ -122,34 +140,42 @@
       <a class="footer-phone" href="ТЕЛ: +74956660166">ТЕЛ: +7(495) 666-01-66</a>
     </section>
 
-  <section class="footer-social">
-    <ul>
-      <li>
-      <a class="social-button" href="#">
-        <span class="visually-hidden">Twitter</span>
-        <img src="img/Twitter.png" width="16,98" height="15,01"</img>
-        </a>
-      </li>
-      <li>
-      <a class="social-button" href="#">
-        <span class="visually-hidden">Facebook</span>
-        <img src="img/Facebook.png" width="12" height="22"</img>
-        </a>
-      </li>
-      <li>
-      <a class="social-button" href="#">
-        <span class="visually-hidden">YouTube</span>
-        <img src="img/YouTube.png" width="20" height="16"</img>
-        </a>
-      </li>
-    </ul>
-  </section>
+    <section class="footer-social">
+      <ul>
+        <li>
+        <a class="social-button" href="#">
+          <span class="visually-hidden"></span>
+          <div class="img-Twitter">
+          <img src="img/Twitter.png" width="16,98" height="15,01">
+          </div>
+          </a>
+        </li>
+        <li>
+        <a class="social-button" href="#">
+          <div class="img-Facebook">
+          <span class="visually-hidden"></span>
+          <img src="img/Facebook.png" width="12" height="22">
+          </div>
+          </a>
+        </li>
+        <li>
+        <a class="social-button" href="#">
+          <div class="img-YouTube">
+            <span class="visually-hidden"></span>
+          <img src="img/YouTube.png" width="20" height="16">
+        </div>
+          </a>
+        </li>
+      </ul>
+    </section>
 
     <p class="footer-copyright">
     <p>Website by<p>
-    <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="113.98" height="39.78" alt="Логотип"></a>
+    <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">
+    <img src="img/logo-htmlacademy.svg" width="113.98" height="39.78" alt="logo"></a>
     </p>
   </footer>
+</div>
 </div>
 </body>
 </html>
