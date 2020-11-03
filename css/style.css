@@ -72,6 +72,10 @@ body {
     opacity: 0.3;
   }
 
+  .site-navigation .site-navigation-current {
+    color: #766357;
+  }
+
 /*Welcome*/
 .sedona-header {
     background-image: url("../img/background_photo.jpg");
@@ -265,7 +269,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #000000;
-    margin: 55px 27px 10px 27px;
+    margin: 55px 27.5px 10px 27.5px;
   }
 
     .search-date ul {
@@ -286,6 +290,7 @@ body {
       background-image: url("../img/calendar1.svg");
       background-repeat: no-repeat;
       background-position: 95% 50%;
+      outline: none;
     }
 
     .search-date input:hover {
@@ -309,6 +314,8 @@ body {
     font-weight: 700;
     color: #000000;
     text-transform: uppercase;
+    display: flex;
+    margin: -30px 27.5px 10px 27.5px;
   }
 
     .search-men input {
@@ -322,28 +329,42 @@ body {
       text-transform: uppercase;
       text-align: center;
       color: #000000;
-      background-image: url("../img/min1.svg");
-      background-repeat: no-repeat;
-      background-position: 5% 50%;
-    }
-
-    .search-men input:hover {
-      background-image: url("../img/min2.svg");
-      background-repeat: no-repeat;
-      background-position: 5% 50%;
-    }
-
-    .search-men input:active {
-      background-image: url("../img/min3.svg");
-      background-repeat: no-repeat;
-      background-position: 5% 50%;
     }
 
     .search-men ul {
       list-style: none;
-      margin-left: 20px;
-      display: flex;
     }
+
+    .search-men li {
+      display: inline-flex;
+      margin: 1px 10px 1px 4px;
+    }
+    .input-group {
+      position: relative;
+      margin: 0px 5px 0px 22px;
+    }
+
+  .btn-minus {
+    width: 12px;
+    height: 3px;
+    background-image: url("../img/min1.svg");
+    position: absolute;
+    left: 0;
+    margin: 17.5px;
+    outline: none;
+    border: none;
+  }
+
+  .btn-plus{
+    height: 11px;
+    width: 11px;
+    background-image: url("../img/plus1.svg");
+    position: absolute;
+    right: 0;
+    margin: 13.5px;
+    outline: none;
+    border: none;
+  }
 
     .button-search {
       font-size: 21px;
@@ -356,6 +377,7 @@ body {
       background-color:#81B3D2;
       width: 458px;
       height: 58px;
+      outline: none;
     }
 
     .button-search:hover{

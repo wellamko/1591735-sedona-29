@@ -114,22 +114,30 @@
         <div class="search-date">
         <ul>
           <li>дата заезда:
-          <input type="date" placeholder="24 апреля 2017"></li>
+          <input type="text" placeholder="24 апреля 2017"></li>
           <li>дата выезда:
-          <input type="date" placeholder="4 июля 2017"></li>
+          <input type="text" placeholder="4 июля 2017"></li>
         </ul>
         </div>
         <div class="search-men">
         <ul>
           <li>взрослые:
-          <input type="number" placeholder="2"></li>
+          <div class="input-group">
+            <button class="btn-minus"></button>
+            <input type="text" placeholder="2">
+            <button class="btn-plus"></button>
+          </div>
+          </li>
           <li>дети:
-          <input type="number" placeholder="0"></li>
+          <div class="input-group">
+          <button class="btn-minus"></button>
+          <input type="text" placeholder="0">
+          <button class="btn-plus"></button>
+          </div>
+          </li>
         </ul>
-        </div>
-        <button class="button-search" type="button">бронировать</button>
-        </div>
-  </div>
+      </div>
+  <button class="button-search" type="button">бронировать</button>
 </section>
 
 </main>
@@ -146,7 +154,7 @@
         <a class="social-button" href="#">
           <span class="visually-hidden"></span>
           <div class="img-Twitter">
-          <img src="img/Twitter.png" width="16,98" height="15,01">
+          <img src="img/Twitter.svg" width="16,98" height="15,01">
           </div>
           </a>
         </li>
@@ -154,7 +162,7 @@
         <a class="social-button" href="#">
           <div class="img-Facebook">
           <span class="visually-hidden"></span>
-          <img src="img/Facebook.png" width="12" height="22">
+          <img src="img/Facebook.svg" width="12" height="22">
           </div>
           </a>
         </li>
@@ -162,7 +170,7 @@
         <a class="social-button" href="#">
           <div class="img-YouTube">
             <span class="visually-hidden"></span>
-          <img src="img/YouTube.png" width="20" height="16">
+          <img src="img/YouTube.svg" width="20" height="16">
         </div>
           </a>
         </li>
