@@ -108,6 +108,7 @@ body {
 
   .site-navigation  a {
     color: #000000;
+    padding: 25px 20px;
   }
 
   .site-navigation a:hover {
@@ -133,7 +134,7 @@ body {
   .sedona-header-bottom {
     background-image: url("../img/shape.svg");
     background-repeat: no-repeat;
-    Height: 57px;
+    Height: 58px;
     background-position: center top;
     bottom: 0;
     width: 100%;
@@ -141,7 +142,11 @@ body {
   }
 
 .welcome {
-  padding: 40.5px;
+  padding: 10px 20px 14px 20px;
+}
+
+.welcome-img{
+  margin-top: 69px;
 }
 
 /* Description */
@@ -156,6 +161,7 @@ body {
     line-height: 26px;
     font-weight: 700;
     padding: 1% 30%;
+    margin-top: -19px;
   }
 
   .description p {
@@ -163,15 +169,13 @@ body {
     line-height: 26px;
     color: #333333;
     font-weight: 400;
-    padding: 16.5px;
+    margin-top: 38px;
   }
 
 /* Info */
   .info {
     display: flex;
     justify-content: space-evenly;
-    margin: 0px 0px -4px 0px;
-    padding: 0px;
   }
 
   .info-text {
@@ -186,39 +190,38 @@ body {
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
-    margin: 47px 120px;
+    margin: 49px 120px 20px 120px;
   }
 
   .info-text p {
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
-    margin: 23px 42px;
+    margin: 5px 20px 30px 40px;
   }
 
 /* Features */
   .features {
-    margin-bottom: 80px;
+    margin-bottom: 27px;
+    outline-offset: 117px;
   }
 
   .features-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 80px;
-    margin: 30px 30px 54px 50px;
-    padding: 0;
+    display: flex;
     list-style: none;
+    column-gap: 40px;
   }
 
   .features-item {
   text-align: center;
+  width: 400px;
   }
 
   .features-item h3 {
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
-    padding: 1%;
+    padding: 9px 133px 5px 100px;
   }
 
   .features-item p {
@@ -226,26 +229,24 @@ body {
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
-    padding: 1% 10%;
+    margin: 16px 53px 26px 28px;
   }
 
 /* About */
   .about {
-    background: #FFFFFF;
-    box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+    margin-top: -19px;
   }
 
   .about-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
     list-style: none;
+    padding: 0px;
+    margin: 74px 3px 49px 3px;
   }
 
   .about-item {
-    padding: 50px;
+    width: 400px;
   }
 
   .about-item h3{
@@ -258,27 +259,28 @@ body {
     line-height: 21px;
     font-weight: 400;
     color: #333333;
+    padding: 0px 50px 20px 50px;
   }
 
 /* Interested */
   .interested {
     background-color: #FFFFFF;
     padding: 1%;
-    height: 291px;
+    height: 269px;
   }
 
   .interested h2{
     font-size: 30px;
     line-height: 24px;
     font-weight: 700;
-    padding: 1% 30%;
+    margin: 46px 34px 34px 42px;
   }
 
   .interested p {
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
-    padding: 1% 30%;
+    margin: 0px;
     color: #333333;
   }
 
@@ -289,13 +291,14 @@ body {
     background-color: #FFFFFF;
     background-image: url("../img/map.png");
     background-repeat: no-repeat;
+    height: 472px;
   }
 
 .search-text{
   color: #FFFFFF;
   background-color: #766357;
   margin-bottom: 100px;
-  margin-top: -111px;
+  margin-top: -84px;
   }
 
   .search-text h2{
@@ -304,7 +307,7 @@ body {
     font-weight: 700;
     color: #FFFFFF;
     margin: 0;
-    padding: 43px;
+    padding: 29px;
     text-align: center;
   }
 
@@ -318,8 +321,8 @@ body {
 }
 
     .search-form {
-      width: 568px;
-      height: 395px;
+      width: 548px;
+      height: 381px;
       background: #FFFFFF;
       box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
       padding: 10px;
@@ -331,7 +334,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #000000;
-    margin: 55px 27.5px 10px 27.5px;
+    margin: 46px 37px -23px 8px;
   }
 
     .search-date ul {
@@ -341,7 +344,7 @@ body {
 
     .search-date input {
       border: none;
-      width: 346px;
+      width: 330px;
       height: 38px;
       background: #F2F2F2;
       padding: 0px 10px;
@@ -351,8 +354,9 @@ body {
       color: #000000;
       background-image: url("../img/calendar1.svg");
       background-repeat: no-repeat;
-      background-position: 95% 50%;
+      background-position: 97% 42%;
       outline: none;
+      margin-left: 17px;
     }
 
     .search-date input:hover {
@@ -377,12 +381,11 @@ body {
     color: #000000;
     text-transform: uppercase;
     display: flex;
-    margin: -30px 27.5px 10px 27.5px;
   }
 
     .search-men input {
       border: none;
-      width: 114px;
+      width: 101px;
       height: 38px;
       background: #F2F2F2;
       padding: 0px 10px;
@@ -395,15 +398,17 @@ body {
 
     .search-men ul {
       list-style: none;
+      margin: 16px 0px 0px 5px;
+      margin-left: 2px;
     }
 
     .search-men li {
       display: inline-flex;
-      margin: 1px 10px 1px 4px;
     }
     .input-group {
       position: relative;
-      margin: 0px 5px 0px 22px;
+      margin: 1px 0px 0px 41px;
+      margin-right: 28px;
     }
 
   .btn-minus {
@@ -440,6 +445,7 @@ body {
       width: 458px;
       height: 58px;
       outline: none;
+      margin-top: 16px;
     }
 
     .button-search:hover{
@@ -464,7 +470,8 @@ body {
     .footer-contacts {
       margin: 0;
       width: 251px;
-      padding: 36px 0px 0px 111px;
+      margin: 10px 0px 0px 115px;
+      margin-bottom: 36px;
     }
 
     .footer-contacts a {
@@ -481,7 +488,7 @@ body {
 
     .footer-social {
       width: 150px;
-      margin: 36px 0px 36px 0px;
+      margin: 39px 0px 0px 7px;
       justify-self: center;
       text-align: center;
     }
@@ -519,7 +526,7 @@ body {
       max-width: 300px;
       margin: 0;
       justify-self: center;
-      padding: 40px 139px 0px 0px;
+      padding: 30px 69px 0px 0px;
     }
 
     .footer-copyright .button:hover,
@@ -614,7 +621,8 @@ body {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  margin: 29px 20px 30px 75px;
+  margin: 31px 0px 30px 0px;
+  margin-right: 34px;
 }
 
 .option-filter {
@@ -704,7 +712,7 @@ body {
     }
 
   .hotel-img{
-    margin: 30px 30px 30px 0px;
+    margin: 4px 116px 10px 0px;
   }
 
   .hotel-list{
@@ -723,7 +731,7 @@ body {
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
-    margin: 21px 0px 7px 0px;
+    margin: -9px 0px 7px -54px;
   }
 
   .hotel-item p{
@@ -732,7 +740,7 @@ body {
     line-height: 21px;
     font-weight: 400;
     display: inline;
-    margin: 0px 33px 0px 0px;
+    margin: 0px 88px 30px -54px;
   }
 
   .hotel-item h3:hover {
@@ -754,7 +762,7 @@ body {
   }
 
   .motel-img {
-  margin: 30px 30px 30px 0px;
+  margin: 30px 116px 10px 0px;
   }
 
   .motel-list{
@@ -773,7 +781,7 @@ body {
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
-    margin: 21px 0px 7px 0px;
+    margin: 20px 0px 6px -52px;
   }
 
   .motel-item p{
@@ -781,7 +789,7 @@ body {
     line-height: 21px;
     font-weight: 400;
     display: inline;
-    margin: 0px 58px 0px 0px;
+    margin: 0px 113px 0px -53px;
   }
 
   .motel-text h3:hover {
@@ -812,7 +820,7 @@ body {
   }
 
   .apartment-img {
-    margin: 30px 30px 30px 0px;
+    margin: 30px 116px 10px 0px;
   }
 
   .apartment-list {
@@ -831,7 +839,7 @@ body {
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
-    margin: 21px 0px 7px 0px;
+    margin: 21px 0px 5px -52px;
   }
 
   .apartment-item p{
@@ -839,7 +847,7 @@ body {
     line-height: 21px;
     font-weight: 400;
     display: inline;
-    margin: 0px 15px 0px 0px;
+    margin: 0px 71px 0px -54px;
   }
 
   .apartment-text h3:hover {
@@ -904,9 +912,10 @@ body {
   text-transform: uppercase;
   background-color:#81B3D2;
   outline: none;
-  margin: 0;
   width: 110px;
   height: 27px;
+  margin: 0px 0px 0px -54px;
+  margin-right: 1px;
 }
 
 .button-hotel-detail:hover{
