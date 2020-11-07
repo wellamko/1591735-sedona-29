@@ -108,7 +108,6 @@ body {
 
   .site-navigation  a {
     color: #000000;
-    padding: 25px 20px;
   }
 
   .site-navigation a:hover {
@@ -615,6 +614,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   column-gap: 10px;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .option-item h3 {
@@ -627,7 +627,7 @@ body {
 
 .option-filter {
   justify-self: left;
-  margin: 32px 0px 0px -15px;
+  margin: 29px 0px 0px -70px;
 }
 
 .option-filter span {
@@ -709,17 +709,18 @@ body {
     border-bottom: 1px solid #E5E5E5;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    height: 151px;
     }
 
   .hotel-img{
-    margin: 4px 116px 10px 0px;
+    margin: 29px 118px 10px 0px;
   }
 
   .hotel-list{
     max-width: 300px;
     margin: 0px;
     text-align: left;
-    margin: 5px 0px 0px -150px;
+    margin: 34px 0px 0px -150px;
   }
 
   .hotel-list li{
@@ -878,7 +879,7 @@ body {
 .rating ul{
   display: flex;
   justify-content: flex-end;
-  margin: 28px 72px 55px 0px;
+  margin: 24px 72px 55px 0px;
 }
 
 .rating-item {
